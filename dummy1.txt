@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-this is the dummy one file of master branch.
-=======
-this is the dummy one  file
->>>>>>> temp
+this is the dummy one  file  helol
