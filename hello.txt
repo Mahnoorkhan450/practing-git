@@ -1,2 +1,51 @@
 Hello, I am learning Git.
 This is my first practice.
+
+
+
+git command --------->
+first we have to set the name and email like when we have to push commit etc
+the other will know who add these changes config the git
+git config --global user.name "Mahnoor khan"
+git config --global user.email "m----------"
+
+
+1. git init  ---------used to initalize the empty  git repo (like the folder that git is tracking)
+this willl create a hidden folder that contain the history of files/code
+2.git status------->used to check the status
+3.to move the code of working directory to staging area we have to 
+git add .  --------->dot is used to add all the files
+git add filename-------->to add one file
+4. git commit -m "---"        ----->used to add the commit 
+5. if we have to move file from staging area to unstaging area
+  git restore --staged  filename
+6. gitignore ---------->is used to ignore the file like we file jo hm chahty hai ke git track na kry
+wo gitignore mai dal do
+
+7.  git doesn't track the empty directory like info and img empty folder
+but we wanna track the folder then the solution is:
+add a   ------------- .gitkeep  ----------------- file in the empty folder
+
+
+-------------branches-------------
+1. git branch   -----> to check the branch 
+2. git branch  branchname       ----->to add new branch 
+3. git switch branchname      ------> to switch from one branch to other
+
+while merging we have to firstly move to the master/main branch
+first-------> git branch-------->to check the branch
+second----------->git switch master
+
+4. git merge  nameofanotherbranch
+
+also the merge conflict occurr when there is same file with same line but different code 
+ 5.git branch -d temp----------> to delete temp branch
+
+-----------stashing--------------
+it is the place where we temporary store the changes
+1.   git stash   ------------->store the changes
+2.    git stash list  
+3.    git stash pop        ----------->changes ko wapis restore krny ke liye
+
+
+
